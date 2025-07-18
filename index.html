@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>康文昌的在线HTML 教学小工具</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        background-color: #ffffff;
+        color: #333;
+        line-height: 1.6;
+      }
+
+      .header {
+        background-color: #f1f1f1;
+        text-align: center;
+        padding: 10px 10px;
+      }
+
+      .header img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        transition: all 0.5s ease;
+        cursor: pointer;
+      }
+
+      .header img:hover {
+        transform: rotate(10deg) scale(1.05);
+      }
+
+      .container {
+        max-width: 700px;
+        margin: 40px auto;
+        background-color: #fafafa;
+        padding: 0px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+      }
+
+      .container p {
+        margin-bottom: 16px;
+      }
+
+      .container a {
+        color: #0077cc;
+        text-decoration: none;
+      }
+
+      .container a:hover {
+        text-decoration: underline;
+      }
+
+      .footer {
+        background-color: #f1f1f1;
+        text-align: center;
+        padding: 30px;
+        font-size: 14px;
+        color: #888;
+      }
+
+      h2 {
+        color: #444;
+        border-left: 5px solid #0077cc;
+        padding-left: 10px;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img
+        src="https://images.unsplash.com/photo-1625794084867-8ddd239946b1"
+        alt="Keon"
+        style="
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          object-fit: cover;
+          transition: all 0.5s;
+          cursor: pointer;
+        "
+        onmouseover="this.style.transform='rotate(10deg) scale(1.05)'"
+        onmouseout="this.style.transform='rotate(0) scale(1)'"
+      />
+      <h1>Keon的个人主页</h1>
+    </div>
+
+    <div class="container">
+      <p>我是 Keon，以下是我的基本信息：</p>
+
+      <h2>🎓 教育背景</h2>
+      <p>
+        英国谢菲尔德大学<a href="https://sheffield.ac.uk/"> 学校链接</a>，
+        <br />
+        电子与电气工程学士学位（2023 年 9 月 – 2026 年 6 月）
+      </p>
+
+      <h2>💡 个人简介</h2>
+      <p>
+        一名积极进取、注重细节的电子与电气工程专业学生，具备嵌入式系统、数字/模拟电路、软件设计等方面的坚实理论基础和项目经验。熟练使用
+        MATLAB、Simulink、C
+        语言与电路仿真工具，曾参与多个团队项目并负责数据分析与系统建模。希望将所学应用于数字认证、密码安全、可信身份识别等行业实践，致力于为建设安全可靠的数字世界贡献力量。
+      </p>
+
+      <h2>🛠 专业技能</h2>
+      <ul>
+        <li><strong>编程语言：</strong> C（基础）、MATLAB、JAVA</li>
+        <li><strong>工具：</strong> Simulink，LTSpice，电路仿真与调试</li>
+        <li>
+          <strong>工程能力：</strong> 模拟/数字电路设计、嵌入式建模、示波器测试
+        </li>
+        <li>
+          <strong>软技能：</strong> 问题解决、团队合作、项目汇报、技术写作
+        </li>
+      </ul>
+
+      <h2>📁 项目与实验经验</h2>
+      <p>
+        <strong>SHIPS 企业挑战 – 劳斯莱斯小组任务（2024 年 11 月）</strong
+        ><br />
+        - 参与由劳斯莱斯组织的可持续推进系统挑战任务<br />
+        - 负责调研电动发动机结构并进行分析<br />
+        - 向工程师评审小组汇报设计方案与风险评估
+      </p>
+    </div>
+
+    <div class="footer">© 2025 Keon</div>
+  </body>
+</html>
